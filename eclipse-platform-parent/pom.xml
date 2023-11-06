@@ -1015,7 +1015,7 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<!-- Must use older version see https://issues.apache.org/jira/projects/MJAVADOC/issues/MJAVADOC-707 -->
 					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>3.6.0</version>
+					<version>3.6.2</version>
 					<executions>
 						<execution>
 							<id>attach-javadocs</id>
