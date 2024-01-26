@@ -67,7 +67,7 @@ jobs:
       with:
         maven-version: ${{ inputs.mavenVersion }}
     - name: Download the API Tools matcher
-      uses: suisei-cn/actions-download-file@15306412d2c75df56b46844362b86b65235b7db1 # v1.4.0
+      uses: suisei-cn/actions-download-file@8fa0a90d8906e99d4af21363cc075538006b1be5 # v1.5.1
       id: api-tools-matcher
       with:
         url: "https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/.github/matcher/api-tools.json"
